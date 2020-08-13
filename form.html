@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form</title>
+</head>
+
+<body>
+
+	<h1 id="Request">Вітаємо!</h1>
+	<p1>Для нас важлива Ваша думка.</p1><br>
+	<p>Приділіть, будь ласка, декілька хвилин для того, щоб пройти опитування!</p1>
+		<form method="POST" action="https://formspree.io/mvowydgr">
+			<input type="text" placeholder="Ваше ім'я*" name="user" required> <br><br>
+			<input type="tel" placeholder="Номер телефону*" name="telephone" required><br>
+			<h5>Оцініть за п'ятибальною шкалою якість замовлення:</h5>  
+			 <p><input name="якість" type="radio" value="1"> 1</p>
+				<p><input name="якість" type="radio" value="2"> 2</p>
+					<p><input name="якість" type="radio" value="3"> 3</p>
+						<p><input name="якість" type="radio" value="4"> 4</p>
+							<p><input name="якість" type="radio" value="5"> 5</p>
+								<h5>Яким продуктам ви надаєте первагу</h5>
+								<input type="checkbox" name="овочі" value="овочі" checked>Овочі<Br>
+								<input type="checkbox" name="фрукти" value="фрукти">Фрукти<Br>
+								<input type="checkbox" name="мясо" value="мясо" checked>М'ясо<Br>
+								<input type="checkbox" name="риба" value="риба">Риба<Br><Br>
+								<h5>Що вам найбільше подобається у нашій роботі (виберіть із списку)</h5>
+								<select  name="важливий результат">
+            <option>якість</option>
+            <option>швидкість виконання замовлення</option>
+            <option>презентація</option>
+            <option>індивідуальний підхід</option>
+                  </select> <br> <br>
+
+								<h5>Ваші пропозиції:</h5>
+								<textarea  name="пропозиції" > </textarea>
+								<br><br>
+								<input type="submit">
+
+
+</form>
+								<br>
+								<footer>
+									<nav>
+										<a href="index.html">Перейти на головну</a>
+									</nav>
+								</footer>
+</body>
+
+</html>
